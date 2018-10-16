@@ -38,7 +38,7 @@ git status
 	red = changes are in cardboard box
 	green = changes are in wooden box
 	
-	workign tree clean = changes are in repository (metal box)
+	working tree clean = changes are in repository (metal box)
 
 git add
 	tells git to start tracking a file
@@ -68,3 +68,6 @@ Basic git workflow:
 
 We have committed twice. = We made changes twice.
 We made two commits. = We made two changes.
+
+===== Section 3
+================
