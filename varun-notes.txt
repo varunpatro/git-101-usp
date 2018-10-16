@@ -63,6 +63,7 @@ Basic git workflow:
 git checkout [commit-id]
 	switches workspace to the version at that commit-id
 
+Git clone
 
 
 
