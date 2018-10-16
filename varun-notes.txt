@@ -63,6 +63,12 @@ Basic git workflow:
 git checkout [commit-id]
 	switches workspace to the version at that commit-id
 
+==== Section 4: Social git = git + syncing
+===============
+
+git clone
+	downloads the repository from an online git platform
+
 
 
 
