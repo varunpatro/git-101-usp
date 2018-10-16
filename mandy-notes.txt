@@ -1,0 +1,103 @@
+==== Section 1: Command Line ====
+
+mkdir [directory-name]
+	make new folder with name [directory-name]
+
+ls
+	displays a list of files and folders in the current folder
+
+cd [directory-name]
+	go into [directory-name]
+
+touch [file.extension]
+	creates a new file with name [file.extension]
+
+cat [filename]
+	displays contents of the file
+
+pwd
+	displays the current working directory
+
+ctrl+l
+	clears screen
+
+rm *.extension
+	removes everythinggggg
+
+==== Section 2: Basic Git ====
+
+git init
+	first step in every project
+
+git status
+	tells us the status of our working directory
+	compares wooden and cardboard box
+		difference will be in red
+			- doesnt just track files, also changes in the files
+			- this means if you made changes to a file when the file is not in the wooden box, there is discrepancy between
+			the version of this in cardboard box, and the current version.
+			- in this case, you need to add the file again.
+	compares cardboard and metal box
+		difference will be in green
+
+git config --global user.name, user.email, add colour etc
+	do it once for every device
+
+git add [filename.extension]
+	tells git to start tracking a file
+	files moves from cardboard to wooden box
+
+git add *.extension == git add .
+	adds everything in directory
+
+git add a*
+	adds everything that starts with a
+
+git add *i*
+	adds everything that contains i
+
+git reset HEAD
+	undoes the latest? change
+
+git commit -m "message"
+	commit changes to the repository (all files that are green)
+	moves stuff from wooden box to metal box :D
+	message tells you (and perhaps git) why you are doing this/ what you are doing
+
+git diff
+	shows changes between working directories
+	staging area(wooden box) and repo(metal box)
+
+git log
+	shows history of changes/ commits
+
+git log --oneline
+	shows history on one line
+
+==== Git Summary ====
+
+Commit:
+	(v) finalise changes in repo
+	(n) the final change in the repo
+
+add and commit to be done separately for reasons
+
+Basic git workflow:
+
+1. Change
+2. Stage (Add)
+3. Finalse (Commit)
+
+==== Section 3: Time travelling and multiverse ====
+
+git checkout [commit-id]
+	- switches workspace to the version at that commit-id
+	- even if you enter the commit-id of the master, git will not show master.
+	It's just paranoid xD
+
+git checkout master
+	goes directly to most recent commit
+	when you do this, git will prompt to ask if you want to discard changes you made "in the past", if any
+
+git log --all
+	shows all changes
