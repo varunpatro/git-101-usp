@@ -56,7 +56,19 @@ git log --all
   show all logs (even if you are on an older version)
 
 git checkout {branch}
-  checkout the latest commit of that branch
+  checkout the latest commit of that branchi
 
 git checkout {commit code}
   checkout the commit
+
+git checkout master
+  checkout the most recent commit
+
+git branch
+  shows list of branches
+
+git branch {new_branch_name}
+  create a new branch
+
+Pull Request:
+  Go to your own repo and do a pull request.
