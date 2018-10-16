@@ -68,7 +68,7 @@ git branch
   shows list of branches
 
 git branch {new_branch_name}
-  create a new branch
+  create a new branch (using your current commit as the base)
 
 Pull Request:
   Go to your own repo and do a pull request.
