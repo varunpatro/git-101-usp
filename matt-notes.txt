@@ -49,6 +49,9 @@ git commit -m [message]
 git diff
   show difference in the files that are to be commited
 
+git diff [branch1] [branch2]
+  Show diff between branches
+
 git log
 git log --oneline
   show the commits you have made to this repository.
