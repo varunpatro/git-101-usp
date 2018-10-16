@@ -1,0 +1,23 @@
+touch [file.extension]
+	creates a new file with name and type [file.extension]
+
+cat [filename]
+	displays all the content of the file
+
+pwd 
+	print working directory
+
+git commit
+git log #--graph --oneline --all
+git diff gitID1 gitID2
+#git diff with no arguments compares working directory and staging area
+#git diff --stagd compares staging area and most recent commit
+git clone
+git checkout 
+git init
+git status
+git add #add files to the staging area
+git reset #remove files from the staging area --hard
+git branch <branch-name>
+git merge 
+git remote #-v includes url of each remote, remove, add, rename <old-name> <new-name>
