@@ -51,5 +51,3 @@ Basic git workflow:
 1. Change
 2. Stage (Add)
 3. Finalize (Commit)
-
-# Temp change for online
