@@ -1,0 +1,35 @@
+git config --global [extension]
+	changes global configurations
+
+git init
+	initialise a new git repository
+
+git status
+	tells us the status of our working directory
+
+git add
+	tells git to start tracking a file
+
+git commit -m "MESSAGE"
+	commit changes to the repository
+
+git diff
+	shows us what has changed between our working directory, staging area and repository
+
+git log
+	shows us all the commits that were made
+
+git log --oneline
+	shows us all the commits in oneline
+
+==== Git Summary ====
+
+Commit:
+Uploading changes to the repository
+
+Basic git workflow:
+1. Change
+2. Stage (Add)
+3. Finalize (Commit)
+	
+	

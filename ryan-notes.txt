@@ -19,8 +19,11 @@ cat [filename]
 pwd
 	displays the current working directory
 
-====== Section 2: Basic Git
-==============
+Ctrl+L
+	clears the window
+
+===== Section 2: Basic Git
+=============
 
 git init
 	initialize a new git repository
@@ -37,37 +40,24 @@ git commit -m "MESSAGE"
 	(move stuff from wooden box to metal box)
 
 git diff
-	shows us what has changed between our working directory, staging area and repo
+	shows us what has changed between our workig directory,
+	staging area and repo
 
 git log
 	shows us all the commits that were made
 
 git log --oneline
-	shows us all the commits in oneline
+	shows us all the commits on one line
 
 ===== Git Summary
 ============
 
 Commit:
-<explain>
+A noun - the final change that goes into the "metal box"
+We have committed twice, OR we made 2 commits.
 
 Basic git workflow:
 
 1. Change
 2. Stage (Add)
-3. Finalize (Commit)
-
-===== Section 3: Time travelling and multiverse
-==============
-
-git checkout [commit-id]
-	switches workspace to the version at that commit-id
-
-==== Section 4: Social git = git + syncing
-===============
-
-git clone
-	downloads the repository from an online git platform
-
-
-
+3. Finalise (Commit)

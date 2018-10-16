@@ -1,0 +1,73 @@
+Git storage
+Git time travelling
+Git social coding
+
+==== Section 1: Command Line
+=============================
+
+mkdir [directory-name]
+	make new folder with name [directory-name]
+
+ls
+ 	displays a list of files and folders in the current folder
+
+cd [directory-name]
+ 	go into [directory-name]
+
+touch [file.extension]
+	creates a new file with name [file extension]
+
+cat [filename]
+ 	displays contents in the file
+
+pwd
+	displays the current working directory
+
+ctrl l
+	clear everything in current working directory
+
+===== Section 2: Basic Git
+==========================
+By default, everything is in working directory (cardboard box). To shift file to staging area (wooden box) and then to repository (metal box):
+
+git init
+	intialize a new git repository
+
+git status
+	tells us the status of our working directory
+	red = changes are in cardboard box
+	green = changes are in wooden box
+	
+	working tree clean = changes are in repository (metal box)
+
+git add
+	tells git to start tracking a file
+	(move stuff to the wooden box)
+
+git commit -m "message"
+	commit changes to the repository
+	(move stuff from wooden box to metal box)   
+
+git log
+	shows us all the commits that were made
+
+git log --oneline
+	shows us all the commits in oneline
+
+====== Git Summary
+==================
+
+Commit:
+move from staging area to repository
+
+Basic git workflow:
+
+1. Change
+2. Stage (Add)
+3. Finalize (Commit)
+
+We have committed twice. = We made changes twice.
+We made two commits. = We made two changes.
+
+===== Section 3
+================
