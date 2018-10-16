@@ -1,0 +1,68 @@
+==== Section 1: Command Line
+===========
+
+	mkdir (directory-name) {
+		make a new folder with name [directory-name]
+	}
+
+	ls {
+		displays a list of files and folders in the current folder
+	}
+
+	cd (directory-name) {
+		go into (directory-name)
+	}
+
+	touch (filename) {
+		creates a file with (file-name) if it was not already createdcat
+	}
+
+	cat (filename) {
+		displays contents of the file
+	}
+
+	pwd {
+		shows the directory youre currently working in
+	}
+
+	git config
+
+==== Section 2: basic git commands
+==================
+
+	git status
+		tells us the status of the working directory
+		no red = no cupboard box
+			(what is not in the saving area)
+		no gree = no wooden box
+			(what is not in the working area)
+
+	git add
+		tells git to start tracking a file
+		(move to wooden box)
+
+	git commit -m "MESSAGE"
+		commit changes to the repository
+		(move stuff from wooden to metal box)
+
+	git diff
+		shows is what has chamged between our working directory, staging area repository
+
+	git log
+		shows the commit history
+
+	git log --oneline
+		shows all the commits in one line
+
+==== Git Summary
+==============
+
+	Commit:
+		<Explain>
+		*Finalise the changes in the file to the repository?*
+
+	Basic git workflow:
+	1. Edit/Change
+	2. Stage (Add)
+	3. Finalise (Commit)
+
