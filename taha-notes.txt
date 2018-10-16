@@ -66,3 +66,17 @@
 	2. Stage (Add)
 	3. Finalise (Commit)
 
+==== Section 3: Time travelling and multiverse
+==============
+
+	git checkout (commut-id)
+		switches workspace to the version at that commit-id
+
+==== Section 4: Social Coding
+===============
+
+	git clone
+		clones an online repository onto disk
+
+	git push
+		pushes new version to the online repository
