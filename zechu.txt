@@ -1,0 +1,54 @@
+Notes for git workshop by usdevs
+
+====Section 1: Command Lines======
+
+mkdir [dir name]: make new folder with name [dir name]
+
+ls: displays a list of files and folder
+
+touch [file.extension] : creates a new file with [name]  and [extension]
+
+cat [filename]: displays the contents of the file
+
+pwd: print working directory: displays the path of the current working directory 
+
+(short cut) command L: deletes prev command line
+
+=====
+git config
+only need to set up once
+
+===== section 2: basic git
+git init: initialised a new git repository
+git add : add to staging area/tells git to start tracking a file
+git commit -m "MESSAGE": commit changes to the repository (have to say message) 
+
+first thing to do for any git proj: git init
+git status: checks the status of our working directory
+
+git diff: shows whats modified, before added to staging area
+git log: shows all the commits i have made
+git log --oneline: shows us all the commits in oneline
+
+======git summary======
+basic git workflow:
+1. change
+2. stage (add)
+3. finaize (commit)
+========================
+
+after commiting should see "working tree clean nothing to commit"
+(everything you have now is in repository)
+
+git log shows from newest to oldest (top to bot)
+git checkout [identification no. of the commit]: allows you to go back to the first commit in history
+
+git checkout master: goes to the latest version 
+========================
+
+collab aspect of git:
+
+fork: creates a copy of other ppl's stuff on my own repository 
+
+
+
