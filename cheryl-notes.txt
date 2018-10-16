@@ -1,0 +1,72 @@
+Syntax
+
+working directory -> staging area -> repo
+
+=======================================
+mkdir [directory_name]
+	make new folder with name [directory_name]
+
+rm [filename]
+	deletes relevant file altogether
+
+ls
+	displays a list of files and folders in current folder
+
+cd [directory_name]
+	go into [directory_name]
+
+touch [file.extension]
+	creates a new file with name [file.extension]
+
+cat [filename]
+	displays all content of file
+
+pwd 
+	displays the current working directory
+
+git init
+	initialises a new git repository
+
+git add [file.extension]
+	moves file from working directory to staging area
+	tells git to start tracking a file
+
+git add .
+	moves all files from working directory to staging area
+
+git add *.extension
+	moves every file with .extension (eg. *.txt adds a1.txt and a2.txt) from working directory to staging area
+
+git status
+	shows whether files are tracked or not within current folder
+	tells us status of working directory
+
+git commit
+	get out by using esc + ':q!'
+
+git commit -m "message"
+	commits changes to the repository
+	moves file from staging area to repo
+
+git diff
+	shows changes between working directory and staging area
+
+git log --oneline
+	shows history on one line. it's prettier!!!!!
+
+
+=== Git Summary
+===============
+Commit: 
+
+Basic git workflow:
+1. Change
+2. Stage (Add)
+3. Finalize (Commit)
+
+=== Section 3: Time travelling and the multiverse
+===============
+
+git checkout [commit-id]
+	switches workspace to the version at that commit-id
+	(use git checkout master when commiting. don't panic.)
