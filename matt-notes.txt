@@ -1,0 +1,80 @@
+=== Section : Command Line
+=========
+
+mkdir [directory-name]: Make Directory
+  make new folder with name [directory-name]
+ls / dir: 
+  display a list of files and folders in working directory
+cd [directory-name]
+  go into [directory-name]
+
+touch [file.extension]
+  create a new file with name [file.extension]
+
+cat [filename]
+  print the contents of the file
+
+pwd 
+  displays the current working directory
+
+Ctrl+L
+  Clear terminal Screen
+
+git init
+  Initialize empty git repo in your working directory
+
+git config --global user.name "<your name>"
+git config --global user.email "<your email>"
+git config --global --add color.ui true
+
+git add 
+  tells git to start tracking a file
+  add files that were not committed into staging area (commits to be pushed)
+
+git status
+  show files that haven't been committed yet
+  > Compares working directory & Staging area
+    Red: Working Directory
+    Green: Staging
+
+git reset
+  unstage files from commit stage
+
+git rm --cached
+  stage a removal of the file
+
+git commit -m [message]
+  make a commit
+
+git diff
+  show difference in the files that are to be commited
+
+git diff [branch1] [branch2]
+  Show diff between branches
+
+git log
+git log --oneline
+  show the commits you have made to this repository.
+git log --all
+  show all logs (even if you are on an older version)
+
+git checkout {branch}
+  checkout the latest commit of that branchi
+
+git checkout {commit code}
+  checkout the commit
+
+git checkout master
+  checkout the most recent commit
+
+git branch
+  shows list of branches
+
+git branch {new_branch_name}
+  create a new branch (using your current commit as the base)
+
+git merge {branch_to_merge_into_your_current_branch}
+  
+
+Pull Request:
+  Go to your own repo and do a pull request.
