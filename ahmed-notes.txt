@@ -1,0 +1,14 @@
+git config --global user.name "Ahmed"
+git config --global user.email "Ahmed_Bahajjaj@u.nus.edu"
+
+git init
+git status
+git add 'file'  //Adds 'file' to git
+git commit -m "message"
+git diff        //Shows stuff that would be added to wooden box
+git log -- oneline  //Shows commit history
+
+git checkout [commit id (from log)]
+
+git remote add origin https://github.com/madanalogy/git-101.git
+git push -u origin master
