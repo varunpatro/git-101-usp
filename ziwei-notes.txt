@@ -57,3 +57,5 @@ Basic git workflow:
 
 git checkout [commit-id]
 	switches workspace to the version at that commit-id
+
+This is a new change
