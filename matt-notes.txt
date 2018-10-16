@@ -73,5 +73,8 @@ git branch
 git branch {new_branch_name}
   create a new branch (using your current commit as the base)
 
+git merge {branch_to_merge_into_your_current_branch}
+  
+
 Pull Request:
   Go to your own repo and do a pull request.
