@@ -1,0 +1,100 @@
+====Section 1: Command Line
+
+mkdir [directory-name]
+	makes new folder with name [directory-name]
+
+ls
+	displays a list of files and folders in the current folder
+
+cd [directory-name]
+	go into [directory-name]
+
+touch [file.extension]
+	creates a new file with name [file.extension]
+
+cat [file.extension]
+	displays all contents in the file
+
+pwd
+	displays the current working directory
+
+ctrl+l 
+	removes all content from the terminal
+
+git config --global user.name "<your name>"
+git config --global user.email "<email>"
+	configure name and email
+
+git config --global --add colour.ui true
+	add colour
+
+====Section 2: Basic Git
+git init
+	initialise a new git repository
+
+git status
+	check status of files in directory
+
+git add <file name>
+	tells git to start cracking a file
+	i.e. move stuff to the wooden box (staging area)
+
+git commit
+	if you get stuck, esc : q enter (if still can't, same + !)
+
+red - cardboard box, green - wooden box
+
+git commit -m "MESSAGE"
+	commit changes to the repository 
+	(move stuff from wooden box to metal box)
+	MESSAGE: can be anything you want e.g. explain why you committed it
+
+git reset HEAD <file name> 
+	moves stuff from wooden box back to cardboard box
+
+git diff 
+	tells you everything that isn't in the wooden box
+	i.e. new things that you've added
+
+git log
+	shows all commits that were made
+
+git log --oneline
+	shows all commits in one line
+
+====Git Summary
+Commit: 
+	commits changes made (that are in the staging area)
+
+Basic Git Workflow:
+	1. Change
+	2. Stage (Add): git add <file name>
+	3. Finalise (Commit): git commit -m "MESSAGE"
+
+====Branches + Travel in Time 
+HEAD: thing you're looking at
+master: last edited one
+
+git checkout <code/master>
+
+git checkout -b <branch name>
+	Creates a new branch
+
+git checkout -f master <commit code>
+	Shift master to <commit code>
+
+git checkout -f master HEAD
+	Shift master back to HEAD
+	(HEAD -> test-branch, master)
+
+git checkout master
+	Switch to master branch
+	(HEAD -> master, test-branch)
+
+git branch -d <branch name>
+	Delete branch
+
+====Using GitHub
+Create new repository > Copy commands > Paste into terminal
+> Type username and password
+
