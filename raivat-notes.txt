@@ -1,0 +1,64 @@
+==== Section 1: Command line
+=======
+
+mkdir  [directory-name]
+  make new folder with name [directory name]
+
+ls
+  displays a list of files and folders in the current folder
+
+Cd [directory name]
+  go into [directory-name]
+
+touch [file.extension]
+  creates a new file with name [file.extension]
+
+cat [file.extension]
+  displays contents of the [file.extension]
+
+pwd
+  displays the current working directory
+
+==== Section 2: Basic Git
+========
+
+git init
+    initialise a new git repository
+
+git status
+    tells us the status of our working directory
+
+git add
+    tells git to start tracking a file
+    (move stuff to the wooden box)
+
+git commit -m "Message"
+    commit changes to the repository
+    (move stuff from wooden box to metal box. Message is reason for the commit)
+
+git diff
+    shows us what has changed between our working directory, staging area and repo
+
+git log
+    shows us all the commits that were made
+
+git log --oneline
+    shows us all the commits in oneline
+
+==== Git Summary
+=======
+
+Commit:
+<is like finalising your draft and adding it to your repository>
+
+Basic Git Workflow:
+
+1. Change
+2. Stage (Add)
+3. Finalise (Commit)
+
+==== Section 3: Time travelling and multiverse
+===========
+
+git checkout [commit-id]
+    switches workspace to the version at that commit-id
