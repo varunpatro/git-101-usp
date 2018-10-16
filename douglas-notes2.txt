@@ -51,3 +51,16 @@ Basic git workflow:
 1. Change
 2. Stage (Add)
 3. Finalize (Commit)
+
+
+==== Branches
+==========
+
+git branch
+    list branches in the repo
+
+git branch [branch-name]
+    create a new branch with name [branc-name] from current branch
+
+git checkout [branch-name]
+    switch to an existing branch [branch-name]
