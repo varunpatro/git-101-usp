@@ -1,0 +1,76 @@
+==== Section 1: Command Line
+========
+
+
+mkdir [directory-name]
+	makes a new folder with name [directory-name]
+
+ls
+	displays a list of files and folders in the current directory
+
+cd [directory-name]
+	changes directory into [directory-name]
+
+touch [file.extension]
+	creates a new file with name [file.extension]
+
+cat [filename]
+	displays the content of [filename]
+
+pwd
+	displays the folder that you are currently in
+
+
+==== Section 2: Basic Git Commands
+========
+
+
+git config --global [extension]
+	changes global configurations
+
+git init
+	initialize a new git repository
+
+git status 
+	tells us the status of our working directory
+
+git add [filename]
+	tells git to start tracking a file
+	moves [filename] to the staging area
+
+git commit -m "MESSAGE" [filename]
+	commit changes to the repository
+	moves [filename] from the staging area to the repository
+
+git diff
+	shows us what has changed between our working directory, staging area and repo
+
+git log
+	shows us all the commits we made
+
+git log --oneline
+	shows us all the commits made in oneline
+
+
+==== Git Summary
+========
+
+Commit: Add/updates [file] to/in the Git repo with a relevant message (finalising)
+
+Basic Git workflow:
+1. Make changes to [file]
+2. Add file to working directory
+3. Commit [file] to repo
+
+==== Section 3: Time Travelling
+========
+
+git checkout [commit-id]
+	switches workspace to the version at commit-id
+
+git log --all
+	shows us all the commits ever made
+
+git checkout master
+	switches workspace to the most recent commit
+
